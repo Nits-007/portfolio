@@ -320,7 +320,7 @@ class ProfileSection extends StatelessWidget {
   const ProfileSection({super.key});
 
   Future<void> _launchResume() async {
-    final Uri url = Uri.parse('https://www.google.com');
+    final Uri url = Uri.parse('https://drive.google.com/file/d/1FoVVdVRIdSDDUezaIPUTF3FxHDjThq9C/view?usp=sharing');
     if (!await launchUrl(url)) {
       throw Exception('Could not launch $url');
     }
